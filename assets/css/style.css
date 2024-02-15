@@ -178,6 +178,8 @@ Primary use: Multipurpose Template
     --section-padding-y: 120px;
     --menu-bar-height: 85px;
     --menu-bar-height-scrolled: 65px;
+    --color-my-1: #9a002c;
+    --color-my-2: #980330;
     --color-dark-1: #010101;
     --color-dark-2: #171717;
     --color-dark-3: #272727;
@@ -593,12 +595,12 @@ body{
     line-height: 1.67; 
 }
 a{
-    color: var(--color-dark-1);
+    color: var(--color-my-1);
     text-decoration: underline;
     transition: color 0.1s var(--ease-default);
 }
 a:hover{
-    color: var(--color-dark-4);
+    color: var(--color-my-2);
     text-decoration: underline;
 }
 b, strong{
@@ -1309,7 +1311,7 @@ a.btn-mod{
     box-sizing: border-box;
     padding: 3px 13px;
     color: #fff;
-    background: var(--color-dark-1);
+    background: var(--color-my-1);
     border: 1px solid transparent;
     font-size: 12px;
     font-weight: 700;
@@ -1362,12 +1364,12 @@ a.btn-mod:focus{
 } 
 
 .btn-mod.btn-w{
-    color: var(--color-dark-1);
+    color: var(--color-my-1);
     background: #fff;    
 }
 .btn-mod.btn-w:hover,
 .btn-mod.btn-w:focus{
-    color: var(--color-dark-1);
+    color: var(--color-my-1);
     background: rgba(255,255,255, 1);
 }
 
@@ -1447,8 +1449,8 @@ a.btn-mod:focus{
 .btn-mod.btn-dark,
 .btn-mod.btn-dark:hover,
 .btn-mod.btn-dark:focus{
-    background: var(--color-dark-3) !important;
-    border: 1px solid var(--color-dark-mode-gray-2) !important;
+    background: var(--color-my-2) !important;
+    border: 1px solid var(--color-my-1) !important;
     box-shadow: none !important;
 }
 
@@ -3592,7 +3594,7 @@ a.logo:hover{
 }
 .inner-nav ul li a:hover,
 .inner-nav ul li a.active{
-    color: var(--color-dark-1);
+    color: var(--color-my-1);
     opacity: 1;
     text-decoration: none;
 }
